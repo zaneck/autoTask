@@ -1,0 +1,2 @@
+ps ax --sort -%cpu -o %cpu,%mem,comm,user | head -n10
+who | sort -k3 -n
